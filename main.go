@@ -1,9 +1,9 @@
 package main
 
 import (
-	"fmt"
+	"WebServer/router"
 )
 
 func main() {
-	fmt.Printf("hello world!\n")
+	router.Run()
 }
