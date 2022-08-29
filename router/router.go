@@ -2,6 +2,7 @@ package router
 
 import (
 	"fmt"
+	"log"
 	"net/http"
 
 	"github.com/gin-gonic/gin"
@@ -19,6 +20,7 @@ func Run() {
 		c.File("./static/index.html")
 	})
 
+	log.Printf("aaa\n")
 	if err := r.Run(":8080"); err != nil {
 		fmt.Printf("startup service failed, err:%v\n", err)
 	}

@@ -1,9 +1,15 @@
 package main
 
 import (
-	"WebServer/router"
+	"WebServer/internal/utils/log"
 )
 
 func main() {
-	router.Run()
+	log.Init()
+	log.Info("WebServer start!")
+	log.Info("xxx")
+	defer func() {
+		log.Info("WebServer stop!\n")
+	}()
+	//router.Run()
 }
