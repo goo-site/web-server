@@ -1,6 +1,7 @@
 package log
 
 import (
+	"WebServer/internal/config"
 	"fmt"
 	"os"
 )
@@ -8,7 +9,7 @@ import (
 var lc logConfig
 
 func Init() {
-	lc.SetLevel(DebugLevel)
+	lc.SetLevel(config.LogCfg.Level)
 	lc.SetOutput(FileAndConsole)
 
 	// 文件输出设置

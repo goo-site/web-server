@@ -1,0 +1,9 @@
+# Debug Info Warn Error Panic Fatal
+Level: Debug
+
+# File Console FileAndConsole
+Output: FileAndConsole 
+
+# log file dir
+LogDir: "/home/william/go/src/WebServer/log"
+LogSize: 1024 * 1024

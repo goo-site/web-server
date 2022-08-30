@@ -10,13 +10,18 @@ type logConfig struct {
 type logLevel int
 
 const (
-	PanicLevel logLevel = 0
-	FatalLevel logLevel = 1
-	ErrorLevel logLevel = 2
-	WarnLevel  logLevel = 3
-	InfoLevel  logLevel = 4
-	DebugLevel logLevel = 5
+	UnknownLevel logLevel = 0
+	PanicLevel   logLevel = 1
+	FatalLevel   logLevel = 2
+	ErrorLevel   logLevel = 3
+	WarnLevel    logLevel = 4
+	InfoLevel    logLevel = 5
+	DebugLevel   logLevel = 6
 )
+
+func levelCode(level string) logLevel {
+
+}
 
 func (l *logConfig) SetLevel(level logLevel) {
 	l.level = level
