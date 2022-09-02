@@ -1,9 +1,9 @@
 package dao
 
 import (
-	"WebServer/internal/dal/entity"
 	"context"
 	"fmt"
+	"web-server/internal/dal/entity"
 
 	"gorm.io/gorm"
 )

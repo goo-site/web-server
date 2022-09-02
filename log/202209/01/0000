@@ -1,0 +1,147 @@
+[Info] [13:18:01] main.go:13 WebServer start!
+[Info] [13:18:01] main.go:14 xxx
+[Info] [13:18:01] main.go:16 WebServer stop!
+
+[Info] [14:39:40] main.go:14 WebServer start!
+[Info] [14:40:08] log.go:22 | request |  114.251.196.17 | GET / |
+[Info] [14:40:08] log.go:26 | response | 200 |
+[Info] [14:40:09] log.go:22 | request |  114.251.196.17 | GET /favicon.ico |
+[Info] [14:40:09] log.go:26 | response | 404 |
+[Info] [14:40:36] log.go:22 | request |  114.251.196.17 | POST /form |
+[Info] [14:40:36] log.go:26 | response | 200 |
+[Info] [14:54:47] main.go:14 WebServer start!
+[Info] [14:55:33] log.go:22 | request |   114.251.196.9 | POST /form |
+[Info] [14:55:33] log.go:26 | response | 404 |
+[Info] [14:56:02] log.go:22 | request |   114.251.196.9 | GET / |
+[Info] [14:56:02] log.go:26 | response | 404 |
+[Info] [14:56:12] log.go:22 | request |   114.251.196.9 | GET /login |
+[Info] [14:56:12] log.go:26 | response | 200 |
+[Info] [14:56:25] log.go:22 | request |   114.251.196.9 | POST /login |
+[Info] [14:56:25] log.go:26 | response | 200 |
+[Info] [15:11:14] main.go:14 WebServer start!
+[Info] [15:11:22] log.go:22 | request |   114.251.196.9 | GET / |
+[Info] [15:11:22] log.go:22 | request |   114.251.196.9 | GET /login |
+[Info] [15:11:22] log.go:26 | response | 200 |
+[Info] [15:11:22] log.go:26 | response | 200 |
+[Info] [15:11:36] log.go:22 | request |   114.251.196.9 | POST /login |
+[Info] [15:11:36] log.go:26 | response | 200 |
+[Info] [15:18:36] log.go:22 | request |   43.138.74.199 | GET / |
+[Info] [15:18:36] log.go:22 | request |   43.138.74.199 | GET /login |
+[Info] [15:18:36] log.go:26 | response | 200 |
+[Info] [15:18:36] log.go:26 | response | 200 |
+[Info] [16:29:07] main.go:14 WebServer start!
+[Info] [16:29:16] log.go:22 | request |  114.251.196.26 | GET / |
+[Info] [16:29:16] log.go:22 | request |  114.251.196.26 | GET /login |
+[Info] [16:29:16] log.go:26 | response | 200 |
+[Info] [16:29:16] log.go:26 | response | 200 |
+[Info] [16:29:16] log.go:22 | request |  114.251.196.22 | GET /js/script.js |
+[Info] [16:29:16] log.go:26 | response | 404 |
+[Info] [16:29:16] log.go:22 | request |  114.251.196.26 | GET /css/style.css |
+[Info] [16:29:16] log.go:26 | response | 404 |
+[Info] [16:40:38] main.go:14 WebServer start!
+[Info] [16:40:44] log.go:22 | request |   114.251.196.6 | GET / |
+[Info] [16:40:44] log.go:22 | request |   114.251.196.6 | GET /login |
+[Info] [16:40:44] log.go:26 | response | 304 |
+[Info] [16:40:44] log.go:26 | response | 304 |
+[Info] [16:40:44] log.go:22 | request |   114.251.196.6 | GET /css/style.css |
+[Info] [16:40:45] log.go:26 | response | 404 |
+[Info] [16:40:45] log.go:22 | request |  114.251.196.27 | GET /js/script.js |
+[Info] [16:40:45] log.go:26 | response | 404 |
+[Info] [20:22:42] main.go:14 WebServer start!
+[Info] [20:22:47] log.go:22 | request |  114.251.196.26 | GET / |
+[Info] [20:22:47] log.go:22 | request |  114.251.196.26 | GET /login |
+[Info] [20:22:47] login.go:12 /login
+[Info] [20:22:47] log.go:26 | response | 200 |
+[Info] [20:22:47] log.go:26 | response | 200 |
+[Info] [20:22:47] log.go:22 | request |  114.251.196.17 | GET /script.js |
+[Info] [20:22:47] log.go:26 | response | 404 |
+[Info] [20:22:47] log.go:22 | request |  114.251.196.26 | GET /style.css |
+[Info] [20:22:47] log.go:26 | response | 404 |
+[Info] [20:24:40] main.go:14 WebServer start!
+[Info] [20:24:40] main.go:16 WebServer stop!
+
+[Info] [20:34:27] main.go:14 WebServer start!
+[Info] [20:34:33] log.go:22 | request |  114.251.196.27 | GET / |
+[Info] [20:34:33] log.go:22 | request |  114.251.196.27 | GET /login |
+[Info] [20:34:33] log.go:26 | response | 404 |
+[Info] [20:34:33] log.go:26 | response | 404 |
+[Info] [20:34:53] log.go:22 | request |  114.251.196.27 | GET /login/ee |
+[Info] [20:34:53] login.go:12 /login/ee
+[Info] [20:34:53] log.go:26 | response | 200 |
+[Info] [20:35:01] log.go:22 | request |  114.251.196.27 | GET /login/ |
+[Info] [20:35:01] log.go:26 | response | 404 |
+[Info] [20:35:16] log.go:22 | request |  114.251.196.27 | GET /login |
+[Info] [20:35:16] log.go:26 | response | 404 |
+[Info] [20:35:24] log.go:22 | request |  114.251.196.27 | GET /login/sss |
+[Info] [20:35:24] login.go:12 /login/sss
+[Info] [20:35:24] log.go:26 | response | 200 |
+[Info] [20:35:41] main.go:14 WebServer start!
+[Info] [20:35:44] log.go:22 | request |   114.251.196.5 | GET /login/sss |
+[Info] [20:35:44] login.go:12 /login/sss
+[Info] [20:35:44] log.go:26 | response | 200 |
+[Info] [20:35:48] log.go:22 | request |   114.251.196.5 | GET /login/ |
+[Info] [20:35:48] login.go:12 /login/
+[Info] [20:35:48] log.go:26 | response | 200 |
+[Info] [20:35:52] log.go:22 | request |   114.251.196.5 | GET /login/ |
+[Info] [20:35:52] login.go:12 /login/
+[Info] [20:35:52] log.go:26 | response | 200 |
+[Info] [20:40:11] main.go:14 WebServer start!
+[Info] [20:40:15] log.go:22 | request |  114.251.196.12 | GET /login/ |
+[Info] [20:40:15] log.go:26 | response | 404 |
+[Info] [20:40:22] log.go:22 | request |  114.251.196.12 | GET / |
+[Info] [20:40:22] log.go:22 | request |  114.251.196.12 | GET /login/login.html |
+[Info] [20:40:22] log.go:26 | response | 200 |
+[Info] [20:40:22] log.go:26 | response | 200 |
+[Info] [20:40:22] log.go:22 | request |  114.251.196.12 | GET /style.css |
+[Info] [20:40:22] log.go:26 | response | 404 |
+[Info] [20:40:22] log.go:22 | request |  114.251.196.24 | GET /script.js |
+[Info] [20:40:22] log.go:26 | response | 404 |
+[Info] [20:41:27] main.go:14 WebServer start!
+[Info] [20:41:29] log.go:22 | request |  114.251.196.16 | GET / |
+[Info] [20:41:29] log.go:22 | request |  114.251.196.16 | GET /login/login.html |
+[Info] [20:41:29] log.go:26 | response | 200 |
+[Info] [20:41:29] log.go:26 | response | 200 |
+[Info] [20:41:29] log.go:22 | request |  114.251.196.16 | GET /login/style.css |
+[Info] [20:41:29] log.go:26 | response | 200 |
+[Info] [20:41:29] log.go:22 | request |  114.251.196.11 | GET /login/script.js |
+[Info] [20:41:29] log.go:26 | response | 200 |
+[Info] [20:41:29] log.go:22 | request |  114.251.196.16 | GET /login/32.jpg |
+[Info] [20:41:29] log.go:26 | response | 200 |
+[Info] [22:02:14] main.go:14 WebServer start!
+[Info] [22:02:21] log.go:22 | request |  114.251.196.12 | GET / |
+[Info] [22:02:21] log.go:22 | request |  114.251.196.12 | GET /login/login.html |
+[Info] [22:02:21] log.go:26 | response | 200 |
+[Info] [22:02:21] log.go:26 | response | 200 |
+[Info] [22:02:21] log.go:22 | request |  114.251.196.12 | GET /login/style.css |
+[Info] [22:02:21] log.go:22 | request |   114.251.196.6 | GET /login/script.js |
+[Info] [22:02:21] log.go:26 | response | 304 |
+[Info] [22:02:21] log.go:26 | response | 304 |
+[Info] [22:02:21] log.go:22 | request |   114.251.196.6 | GET /login/32.jpg |
+[Info] [22:02:21] log.go:26 | response | 304 |
+[Info] [22:04:55] main.go:14 WebServer start!
+[Info] [22:05:02] log.go:22 | request |  114.251.196.24 | GET / |
+[Info] [22:05:02] log.go:22 | request |  114.251.196.24 | GET /login/login.html |
+[Info] [22:05:02] log.go:26 | response | 200 |
+[Info] [22:05:02] log.go:26 | response | 200 |
+[Info] [22:06:35] main.go:14 WebServer start!
+[Info] [22:06:43] log.go:22 | request |  114.251.196.25 | GET / |
+[Info] [22:06:43] log.go:22 | request |  114.251.196.25 | GET /login/login.html |
+[Info] [22:06:43] log.go:26 | response | 200 |
+[Info] [22:06:43] log.go:26 | response | 200 |
+[Info] [22:08:16] main.go:14 WebServer start!
+[Info] [22:08:23] log.go:22 | request |  114.251.196.17 | GET / |
+[Info] [22:08:23] log.go:22 | request |  114.251.196.17 | GET /login/login.html |
+[Info] [22:08:23] log.go:26 | response | 200 |
+[Info] [22:08:23] log.go:26 | response | 200 |
+[Info] [22:10:17] main.go:14 WebServer start!
+[Info] [22:10:29] log.go:22 | request |   114.251.196.7 | GET / |
+[Info] [22:10:29] log.go:22 | request |   114.251.196.7 | GET /login/login.html |
+[Info] [22:10:29] log.go:26 | response | 200 |
+[Info] [22:10:29] log.go:26 | response | 200 |
+[Info] [22:16:47] main.go:14 WebServer start!
+[Info] [22:16:54] log.go:22 | request |   114.251.196.7 | GET / |
+[Info] [22:16:54] log.go:22 | request |   114.251.196.7 | GET /login/login.html |
+[Info] [22:16:54] log.go:26 | response | 200 |
+[Info] [22:16:54] log.go:26 | response | 200 |
+[Info] [22:17:15] log.go:22 | request |   114.251.196.7 | GET /login/verify |
+[Info] [22:17:15] log.go:26 | response | 404 |

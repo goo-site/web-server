@@ -2,26 +2,28 @@ package router
 
 import (
 	"fmt"
-	"log"
-	"net/http"
+	"web-server/internal/handle"
+	"web-server/internal/utils"
 
 	"github.com/gin-gonic/gin"
 )
 
 func Run() {
-	r := gin.Default()
-	r.POST("/form", func(c *gin.Context) {
-		types := c.DefaultPostForm("type", "post")
-		username := c.PostForm("username")
-		password := c.PostForm("userpassword")
-		c.String(http.StatusOK, fmt.Sprintf("username:%s,password:%s,type:%s", username, password, types))
-	})
-	r.GET("/", func(c *gin.Context) {
-		c.File("./static/index.html")
-	})
+	r := gin.New()
+	r.Use(utils.Logger(), gin.Recovery())
+	route(r)
 
-	log.Printf("aaa\n")
 	if err := r.Run(":8080"); err != nil {
 		fmt.Printf("startup service failed, err:%v\n", err)
 	}
+}
+
+func route(r *gin.Engine) {
+	login := r.Group("/login")
+	login.GET("/:file", handle.LoginHandle)
+	login.POST("", handle.LoginPostHandle)
+	r.GET("/", func(c *gin.Context) {
+		c.Request.URL.Path = "/login/login.html"
+		r.HandleContext(c)
+	})
 }

@@ -1,17 +1,20 @@
 package main
 
 import (
-	"WebServer/internal/config"
-	"WebServer/internal/utils/log"
+	"web-server/internal/config"
+	"web-server/internal/utils"
+	"web-server/router"
+
+	"github.com/goo-site/log"
 )
 
 func main() {
 	config.Init()
-	log.Init()
+	utils.LogInit()
 	log.Info("WebServer start!")
-	log.Info("xxx")
 	defer func() {
 		log.Info("WebServer stop!\n")
 	}()
-	//router.Run()
+
+	router.Run()
 }
