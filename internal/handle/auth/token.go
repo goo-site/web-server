@@ -1,4 +1,4 @@
-package login
+package auth
 
 import (
 	"github.com/goo-site/log"
@@ -11,11 +11,11 @@ import (
 var SigningKey = []byte("github.com/goo-site/web-server")
 
 type Claims struct {
-	UserId int64
+	UserId string
 	jwt.StandardClaims
 }
 
-func CreateToken(userId int64) (string, error) {
+func CreateToken(userId string) (string, error) {
 	claims := &Claims{
 		UserId: userId,
 		StandardClaims: jwt.StandardClaims{
@@ -32,7 +32,7 @@ func CreateToken(userId int64) (string, error) {
 	return token, nil
 }
 
-func CheckToken(tokenString string, userId int64) enum.TokenStatus {
+func CheckToken(tokenString string, userId string) enum.TokenStatus {
 	token, err := jwt.ParseWithClaims(tokenString, &Claims{}, func(token *jwt.Token) (i interface{}, err error) {
 		return SigningKey, nil
 	})

@@ -20,9 +20,7 @@ func LogInit() {
 func Logger() gin.HandlerFunc {
 	return func(c *gin.Context) {
 		log.Info("| request | %15s | %s %s |", c.ClientIP(), c.Request.Method, c.Request.URL.Path)
-
 		c.Next()
-
 		log.Info("| response | %3d |", c.Writer.Status())
 	}
 }

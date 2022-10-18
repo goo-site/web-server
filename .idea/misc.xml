@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="UnattendedHostPersistenceState">
+    <option name="openedFilesInfos">
+      <list>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="695" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/router/router.go" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="0" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/internal/handle/bo/login.go" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="331" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/internal/handle/bo/base_resp.go" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="286" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/internal/handle/home.go" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="0" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/internal/dal/model/user.sql" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="811" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/internal/handle/auth/login.go" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="319" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/internal/dal/mysql/dao/user_info_dao.go" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="12" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/main.go" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="0" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/internal/dal/mysql/init.go" />
+        </OpenedFileInfo>
+      </list>
+    </option>
+  </component>
+</project>

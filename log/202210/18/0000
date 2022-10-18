@@ -1,0 +1,100 @@
+[Info] [15:57:08] main.go:14 WebServer start!
+[Info] [15:57:17] log.go:22 | request |    49.7.199.156 | OPTIONS /auth/login |
+[Info] [15:57:17] log.go:24 | response | 404 |
+[Info] [15:58:58] log.go:22 | request |    49.7.199.156 | OPTIONS /auth/login |
+[Info] [15:58:58] log.go:24 | response | 404 |
+[Info] [16:00:30] main.go:14 WebServer start!
+[Info] [16:00:56] log.go:22 | request |    49.7.199.136 | OPTIONS /auth/login |
+[Info] [16:00:56] log.go:24 | response | 404 |
+[Info] [16:01:24] log.go:22 | request |   198.199.95.15 | GET /manager/text/list |
+[Info] [16:01:24] log.go:24 | response | 404 |
+[Info] [16:08:28] log.go:22 | request |     49.7.199.28 | OPTIONS /auth/login |
+[Info] [16:08:28] log.go:24 | response | 404 |
+[Info] [16:11:14] log.go:22 | request |   43.138.74.199 | GET /manager/text/list |
+[Info] [16:11:14] log.go:24 | response | 404 |
+[Info] [16:14:30] log.go:22 | request |     49.7.199.68 | OPTIONS /auth/login |
+[Info] [16:14:30] log.go:24 | response | 404 |
+[Info] [16:14:40] log.go:22 | request |     49.7.199.68 | OPTIONS /auth/login |
+[Info] [16:14:40] log.go:24 | response | 404 |
+[Info] [16:15:44] log.go:22 | request |     49.7.199.68 | POST /auth/login |
+[Info] [16:15:57] log.go:24 | response | 400 |
+[Info] [16:16:12] log.go:22 | request |     49.7.199.68 | POST /auth/login |
+[Info] [16:16:12] log.go:24 | response | 400 |
+[Info] [16:16:26] log.go:22 | request |     49.7.199.68 | POST /auth/login |
+[Info] [16:16:26] log.go:24 | response | 400 |
+[Info] [16:17:22] log.go:22 | request |     49.7.199.68 | POST /auth/login |
+[Info] [16:17:22] log.go:24 | response | 400 |
+[Info] [16:17:29] log.go:22 | request |     49.7.199.68 | POST /auth/login |
+[Info] [16:17:29] log.go:24 | response | 400 |
+[Info] [16:17:29] log.go:22 | request |     49.7.199.68 | POST /auth/login |
+[Info] [16:17:29] log.go:24 | response | 400 |
+[Info] [16:17:39] log.go:22 | request |     49.7.199.68 | POST /auth/login |
+[Info] [16:17:39] log.go:24 | response | 400 |
+[Info] [16:17:53] log.go:22 | request |     49.7.199.68 | POST /auth/login |
+[Info] [16:17:53] log.go:24 | response | 400 |
+[Info] [16:18:33] log.go:22 | request |     49.7.199.68 | POST /auth/login |
+[Info] [16:18:42] log.go:24 | response | 400 |
+[Info] [16:29:15] log.go:22 | request |     49.7.199.88 | POST /auth/login |
+[Info] [16:29:15] log.go:24 | response | 400 |
+[Info] [16:30:08] log.go:22 | request |     49.7.199.88 | POST /auth/login |
+[Info] [16:31:36] log.go:24 | response | 400 |
+[Info] [16:32:45] log.go:22 | request |   45.61.186.118 | GET /config/getuser |
+[Info] [16:32:45] log.go:24 | response | 404 |
+[Info] [16:33:54] main.go:14 WebServer start!
+[Info] [16:34:21] log.go:22 | request |     49.7.199.48 | POST /auth/login |
+[Info] [16:34:35] log.go:24 | response | 500 |
+[Info] [16:34:54] log.go:22 | request |     49.7.199.48 | POST /auth/login |
+[Info] [16:34:54] log.go:24 | response | 500 |
+[Info] [16:47:45] log.go:22 | request | 192.241.216.216 | GET /manager/html |
+[Info] [16:47:45] log.go:24 | response | 404 |
+[Info] [16:50:58] log.go:22 | request |   43.138.74.199 | GET /manager/html |
+[Info] [16:50:58] log.go:24 | response | 404 |
+[Info] [16:53:14] log.go:22 | request |   198.98.59.132 | GET / |
+[Info] [16:53:14] log.go:24 | response | 404 |
+[Info] [17:19:56] log.go:22 | request |  143.198.135.38 | GET /manager/html |
+[Info] [17:19:56] log.go:24 | response | 404 |
+[Info] [17:33:49] log.go:22 | request |   43.138.74.199 | GET / |
+[Info] [17:33:49] log.go:24 | response | 404 |
+[Info] [17:38:31] main.go:15 WebServer start!
+[Info] [17:38:43] log.go:22 | request |    49.7.199.186 | POST /auth/login |
+[Error] [17:38:43] login.go:19 [LoginHandle] GetUserInfo err:[GetUserInfo] db err: Error 1049: Unknown database 'local'
+[Info] [17:38:43] log.go:24 | response | 400 |
+[Info] [17:38:50] log.go:22 | request |    49.7.199.186 | POST /auth/login |
+[Error] [17:38:50] login.go:19 [LoginHandle] GetUserInfo err:[GetUserInfo] db err: Error 1049: Unknown database 'local'
+[Info] [17:38:50] log.go:24 | response | 400 |
+[Info] [17:41:54] main.go:15 WebServer start!
+[Info] [17:42:04] log.go:22 | request |    49.7.199.196 | POST /auth/login |
+[Info] [17:42:04] log.go:24 | response | 200 |
+[Info] [17:42:22] log.go:22 | request |    49.7.199.196 | POST /auth/login |
+[Info] [17:42:22] log.go:24 | response | 200 |
+[Info] [17:42:23] log.go:22 | request |    49.7.199.196 | POST /auth/login |
+[Info] [17:42:23] log.go:24 | response | 200 |
+[Info] [17:45:13] log.go:22 | request |    49.7.199.196 | POST /auth/login |
+[Error] [17:45:13] login.go:19 [LoginHandle] GetUserInfo err:[GetUserInfo] db err: record not found
+[Info] [17:45:13] log.go:24 | response | 400 |
+[Info] [17:45:45] log.go:22 | request |    49.7.199.196 | POST /auth/login |
+[Info] [17:45:45] log.go:24 | response | 200 |
+[Info] [17:49:03] log.go:22 | request |    49.7.199.196 | POST /auth/login |
+[Info] [17:49:03] log.go:24 | response | 200 |
+[Info] [18:30:27] log.go:22 | request |   219.157.15.30 | GET /boaform/admin/formLogin |
+[Info] [18:30:27] log.go:24 | response | 404 |
+[Info] [18:35:03] log.go:22 | request |     206.81.1.80 | GET /manager/html |
+[Info] [18:35:03] log.go:24 | response | 404 |
+[Info] [18:54:42] log.go:22 | request | 184.105.247.254 | GET / |
+[Info] [18:54:42] log.go:24 | response | 404 |
+[Info] [18:56:58] log.go:22 | request |  193.118.55.146 | GET / |
+[Info] [18:56:58] log.go:24 | response | 404 |
+[Info] [19:40:53] log.go:22 | request |   198.98.59.132 | GET / |
+[Info] [19:40:53] log.go:24 | response | 404 |
+[Info] [20:15:36] log.go:22 | request |    2.189.19.167 | GET / |
+[Info] [20:15:36] log.go:24 | response | 404 |
+[Info] [20:24:08] log.go:22 | request |   103.56.61.147 | GET / |
+[Info] [20:24:08] log.go:24 | response | 404 |
+[Info] [20:24:09] log.go:22 | request |   103.56.61.147 | GET /favicon.ico |
+[Info] [20:24:09] log.go:24 | response | 404 |
+[Info] [20:24:09] log.go:22 | request |   103.56.61.147 | GET /robots.txt |
+[Info] [20:24:09] log.go:24 | response | 404 |
+[Info] [20:24:09] log.go:22 | request |   103.56.61.147 | GET /.well-known/security.txt |
+[Info] [20:24:09] log.go:24 | response | 404 |
+[Info] [20:37:56] log.go:22 | request |    94.102.61.45 | GET / |
+[Info] [20:37:56] log.go:24 | response | 404 |

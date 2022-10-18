@@ -1,2 +1,2 @@
 model:
-	ecode model --nodal --keyTag all
+	ecode model --nodal all

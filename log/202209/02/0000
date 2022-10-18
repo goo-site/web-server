@@ -1,0 +1,470 @@
+[Info] [22:57:41] main.go:14 WebServer start!
+[Info] [22:58:20] log.go:22 | request |  120.244.140.49 | GET /sunshine/index.html |
+[Info] [22:58:20] log.go:26 | response | 404 |
+[Info] [22:58:20] log.go:22 | request |  120.244.140.49 | GET /favicon.ico |
+[Info] [22:58:20] log.go:26 | response | 404 |
+[Info] [22:59:59] main.go:14 WebServer start!
+[Info] [23:00:06] log.go:22 | request |  120.244.140.49 | GET /sunshine/index.html |
+[Info] [23:00:06] log.go:26 | response | 404 |
+[Info] [23:04:06] log.go:22 | request |   43.138.74.199 | GET /sunshine/index.html |
+[Info] [23:04:06] log.go:26 | response | 404 |
+[Info] [23:07:32] main.go:14 WebServer start!
+[Info] [23:07:35] log.go:22 | request |  120.244.140.49 | GET /sunshine/index.html |
+[Info] [23:07:35] log.go:26 | response | 404 |
+[Info] [23:08:09] main.go:14 WebServer start!
+[Info] [23:08:13] log.go:22 | request |  120.244.140.49 | GET /sunshine/index.html |
+[Info] [23:08:13] log.go:26 | response | 404 |
+[Info] [23:09:08] main.go:14 WebServer start!
+[Info] [23:09:10] log.go:22 | request |  120.244.140.49 | GET /sunshine/index.html |
+[Info] [23:09:10] sunshine.go:10 [SunshineHandle] file: index.html
+[Info] [23:09:10] log.go:26 | response | 301 |
+[Info] [23:09:10] log.go:22 | request |  120.244.140.49 | GET /sunshine/ |
+[Info] [23:09:10] log.go:26 | response | 404 |
+[Info] [23:09:48] main.go:14 WebServer start!
+[Info] [23:09:51] log.go:22 | request |  120.244.140.49 | GET /sunshine/ |
+[Info] [23:09:51] log.go:26 | response | 404 |
+[Info] [23:10:02] main.go:14 WebServer start!
+[Info] [23:10:05] log.go:22 | request |  120.244.140.49 | GET /sunshine/ |
+[Info] [23:10:05] log.go:26 | response | 404 |
+[Info] [23:10:11] log.go:22 | request |  120.244.140.49 | GET /sunshine/ |
+[Info] [23:10:11] log.go:26 | response | 404 |
+[Info] [23:10:34] log.go:22 | request |  120.244.140.49 | GET /sunshine/ |
+[Info] [23:10:34] log.go:26 | response | 404 |
+[Info] [23:11:11] log.go:22 | request |  120.244.140.49 | GET /sunshine/ |
+[Info] [23:11:11] log.go:26 | response | 404 |
+[Info] [23:11:48] main.go:14 WebServer start!
+[Info] [23:11:57] log.go:22 | request |  120.244.140.49 | GET /sunshine/ |
+[Info] [23:11:57] log.go:26 | response | 404 |
+[Info] [23:12:25] main.go:14 WebServer start!
+[Info] [23:12:32] log.go:22 | request |  120.244.140.49 | GET /sunshine/ |
+[Info] [23:12:32] log.go:26 | response | 404 |
+[Info] [23:12:52] log.go:22 | request |  120.244.140.49 | GET / |
+[Info] [23:12:52] log.go:26 | response | 404 |
+[Info] [23:13:03] log.go:22 | request |   43.138.74.199 | GET /sunshine/ |
+[Info] [23:13:03] log.go:26 | response | 404 |
+[Info] [23:13:11] log.go:22 | request |  120.244.140.49 | GET /sunshine/ |
+[Info] [23:13:11] log.go:26 | response | 404 |
+[Info] [23:13:42] log.go:22 | request |  120.244.140.49 | GET /sunshine/index.html |
+[Info] [23:13:42] sunshine.go:11 [SunshineHandle] file: ./static/sunshine/index.html
+[Info] [23:13:42] log.go:26 | response | 301 |
+[Info] [23:13:42] log.go:22 | request |  120.244.140.49 | GET /sunshine/ |
+[Info] [23:13:42] log.go:26 | response | 404 |
+[Info] [23:13:42] log.go:22 | request |  120.244.140.49 | GET /favicon.ico |
+[Info] [23:13:42] log.go:26 | response | 404 |
+[Info] [23:16:38] main.go:14 WebServer start!
+[Info] [23:16:49] log.go:22 | request |  120.244.140.49 | GET /index.html |
+[Info] [23:16:49] sunshine.go:11 [SunshineHandle] file: ./static/sunshine/index.html
+[Info] [23:16:49] log.go:26 | response | 301 |
+[Info] [23:16:49] log.go:22 | request |  120.244.140.49 | GET / |
+[Info] [23:16:49] log.go:26 | response | 404 |
+[Info] [23:19:34] main.go:14 WebServer start!
+[Info] [23:19:42] log.go:22 | request |  120.244.140.49 | GET /sunshine |
+[Info] [23:19:42] sunshine.go:14 [SunshineHandle] file: ./static/sunshine/sunshine
+[Info] [23:19:42] log.go:26 | response | 404 |
+[Info] [23:20:16] main.go:14 WebServer start!
+[Info] [23:20:27] log.go:22 | request |  120.244.140.49 | GET /sunshine |
+[Info] [23:20:27] sunshine.go:14 [SunshineHandle] file: ./static/sunshine/sunshine
+[Info] [23:20:27] log.go:26 | response | 404 |
+[Info] [23:21:38] main.go:14 WebServer start!
+[Info] [23:21:44] log.go:22 | request |  120.244.140.49 | GET / |
+[Info] [23:21:44] log.go:26 | response | 404 |
+[Info] [23:21:56] log.go:22 | request |  120.244.140.49 | GET /index.html |
+[Info] [23:21:56] sunshine.go:14 [SunshineHandle] file: ./static/sunshine/index.html
+[Info] [23:21:56] log.go:26 | response | 301 |
+[Info] [23:21:56] log.go:22 | request |  120.244.140.49 | GET / |
+[Info] [23:21:56] log.go:26 | response | 404 |
+[Info] [23:21:57] log.go:22 | request |   43.138.74.199 | GET /index.html |
+[Info] [23:21:57] sunshine.go:14 [SunshineHandle] file: ./static/sunshine/index.html
+[Info] [23:21:57] log.go:26 | response | 301 |
+[Info] [23:21:57] log.go:22 | request | 180.101.245.250 | GET / |
+[Info] [23:21:57] log.go:26 | response | 404 |
+[Info] [23:22:56] main.go:14 WebServer start!
+[Info] [23:23:04] log.go:22 | request |  120.244.140.49 | GET / |
+[Info] [23:23:04] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//
+[Info] [23:23:04] log.go:26 | response | 200 |
+[Info] [23:23:04] log.go:22 | request |  120.244.140.49 | GET /css/bootstrap.css |
+[Info] [23:23:04] log.go:22 | request |  120.244.140.49 | GET /css/normalize.css |
+[Info] [23:23:04] log.go:22 | request |  120.244.140.49 | GET /css/owl.carousel.css |
+[Info] [23:23:04] log.go:22 | request |  120.244.140.49 | GET /css/transition-animations.css |
+[Info] [23:23:04] log.go:22 | request |  120.244.140.49 | GET /css/magnific-popup.css |
+[Info] [23:23:04] log.go:22 | request |  120.244.140.49 | GET /css/animate.css |
+[Info] [23:23:04] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//css/normalize.css
+[Info] [23:23:04] log.go:26 | response | 200 |
+[Info] [23:23:04] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//css/owl.carousel.css
+[Info] [23:23:04] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//css/transition-animations.css
+[Info] [23:23:04] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//css/magnific-popup.css
+[Info] [23:23:04] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//css/animate.css
+[Info] [23:23:04] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//css/bootstrap.css
+[Info] [23:23:04] log.go:22 | request |  120.244.140.49 | GET /css/main.css |
+[Info] [23:23:04] log.go:26 | response | 200 |
+[Info] [23:23:04] log.go:26 | response | 200 |
+[Info] [23:23:04] log.go:26 | response | 200 |
+[Info] [23:23:04] log.go:26 | response | 200 |
+[Info] [23:23:04] log.go:26 | response | 200 |
+[Info] [23:23:04] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//css/main.css
+[Info] [23:23:04] log.go:22 | request |  120.244.140.49 | GET /js/jquery-2.1.3.min.js |
+[Info] [23:23:04] log.go:22 | request |  120.244.140.49 | GET /js/modernizr.custom.js |
+[Info] [23:23:04] log.go:26 | response | 200 |
+[Info] [23:23:04] log.go:22 | request |  120.244.140.49 | GET /css/font-awesome.css |
+[Info] [23:23:04] log.go:22 | request |  120.244.140.49 | GET /css/pe-icon-7-stroke.css |
+[Info] [23:23:04] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//js/jquery-2.1.3.min.js
+[Info] [23:23:04] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//js/modernizr.custom.js
+[Info] [23:23:04] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//css/font-awesome.css
+[Info] [23:23:04] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//css/pe-icon-7-stroke.css
+[Info] [23:23:04] log.go:26 | response | 200 |
+[Info] [23:23:04] log.go:26 | response | 200 |
+[Info] [23:23:04] log.go:26 | response | 200 |
+[Info] [23:23:04] log.go:26 | response | 200 |
+[Info] [23:23:04] log.go:22 | request |  120.244.140.49 | GET /js/bootstrap.min.js |
+[Info] [23:23:04] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//js/bootstrap.min.js
+[Info] [23:23:04] log.go:26 | response | 200 |
+[Info] [23:23:04] log.go:22 | request |  120.244.140.49 | GET /js/page-transition.js |
+[Info] [23:23:04] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//js/page-transition.js
+[Info] [23:23:04] log.go:26 | response | 200 |
+[Info] [23:23:04] log.go:22 | request |  120.244.140.49 | GET /js/validator.js |
+[Info] [23:23:04] log.go:22 | request |  120.244.140.49 | GET /js/imagesloaded.pkgd.min.js |
+[Info] [23:23:04] log.go:22 | request |  120.244.140.49 | GET /js/jquery.shuffle.min.js |
+[Info] [23:23:04] log.go:22 | request |  120.244.140.49 | GET /js/masonry.pkgd.min.js |
+[Info] [23:23:04] log.go:22 | request |  120.244.140.49 | GET /js/jquery.magnific-popup.min.js |
+[Info] [23:23:04] log.go:22 | request |  120.244.140.49 | GET /js/owl.carousel.min.js |
+[Info] [23:23:04] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//js/owl.carousel.min.js
+[Info] [23:23:04] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//js/validator.js
+[Info] [23:23:04] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//js/imagesloaded.pkgd.min.js
+[Info] [23:23:04] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//js/jquery.shuffle.min.js
+[Info] [23:23:04] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//js/masonry.pkgd.min.js
+[Info] [23:23:04] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//js/jquery.magnific-popup.min.js
+[Info] [23:23:04] log.go:26 | response | 200 |
+[Info] [23:23:04] log.go:26 | response | 200 |
+[Info] [23:23:04] log.go:26 | response | 200 |
+[Info] [23:23:04] log.go:26 | response | 200 |
+[Info] [23:23:04] log.go:26 | response | 200 |
+[Info] [23:23:04] log.go:26 | response | 200 |
+[Info] [23:23:04] log.go:22 | request |  120.244.140.49 | GET /fonts/fontawesome-webfont.woff2 |
+[Info] [23:23:04] log.go:22 | request |  120.244.140.49 | GET /js/jquery.hoverdir.js |
+[Info] [23:23:04] log.go:22 | request |  120.244.140.49 | GET /js/main.js |
+[Info] [23:23:04] log.go:22 | request |  120.244.140.49 | GET /images/my_photo.jpg |
+[Info] [23:23:04] log.go:22 | request |  120.244.140.49 | GET /images/photo_small.jpg |
+[Info] [23:23:04] log.go:22 | request |  120.244.140.49 | GET /images/clients/client_1.png |
+[Info] [23:23:04] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//fonts/fontawesome-webfont.woff2
+[Info] [23:23:04] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//js/jquery.hoverdir.js
+[Info] [23:23:04] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//js/main.js
+[Info] [23:23:04] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//images/my_photo.jpg
+[Info] [23:23:04] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//images/photo_small.jpg
+[Info] [23:23:04] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//images/clients/client_1.png
+[Info] [23:23:04] log.go:26 | response | 200 |
+[Info] [23:23:04] log.go:26 | response | 200 |
+[Info] [23:23:04] log.go:26 | response | 200 |
+[Info] [23:23:04] log.go:26 | response | 200 |
+[Info] [23:23:04] log.go:26 | response | 200 |
+[Info] [23:23:04] log.go:26 | response | 200 |
+[Info] [23:23:04] log.go:22 | request |  120.244.140.49 | GET /fonts/Pe-icon-7-stroke.woff |
+[Info] [23:23:04] log.go:22 | request |  120.244.140.49 | GET /images/service/ecommerce.png |
+[Info] [23:23:04] log.go:22 | request |  120.244.140.49 | GET /images/clients/client_2.png |
+[Info] [23:23:04] log.go:22 | request |  120.244.140.49 | GET /images/clients/client_3.png |
+[Info] [23:23:04] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//fonts/Pe-icon-7-stroke.woff
+[Info] [23:23:04] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//images/service/ecommerce.png
+[Info] [23:23:04] log.go:22 | request |  120.244.140.49 | GET /images/service/web_design.png |
+[Info] [23:23:04] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//images/clients/client_2.png
+[Info] [23:23:04] log.go:22 | request |  120.244.140.49 | GET /images/service/copywrite.png |
+[Info] [23:23:04] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//images/clients/client_3.png
+[Info] [23:23:04] log.go:26 | response | 200 |
+[Info] [23:23:04] log.go:26 | response | 200 |
+[Info] [23:23:04] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//images/service/web_design.png
+[Info] [23:23:04] log.go:26 | response | 200 |
+[Info] [23:23:04] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//images/service/copywrite.png
+[Info] [23:23:04] log.go:26 | response | 200 |
+[Info] [23:23:04] log.go:22 | request |  120.244.140.49 | GET /images/service/management.png |
+[Info] [23:23:04] log.go:26 | response | 200 |
+[Info] [23:23:04] log.go:26 | response | 200 |
+[Info] [23:23:04] log.go:22 | request |  120.244.140.49 | GET /images/clients/client_4.png |
+[Info] [23:23:04] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//images/service/management.png
+[Info] [23:23:04] log.go:22 | request |  120.244.140.49 | GET /images/clients/client_5.png |
+[Info] [23:23:04] log.go:22 | request |  120.244.140.49 | GET /images/clients/client_6.png |
+[Info] [23:23:04] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//images/clients/client_4.png
+[Info] [23:23:04] log.go:26 | response | 200 |
+[Info] [23:23:04] log.go:22 | request |  120.244.140.49 | GET /images/testimonials/testimonila_photo_2.png |
+[Info] [23:23:04] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//images/clients/client_5.png
+[Info] [23:23:04] log.go:22 | request |  120.244.140.49 | GET /images/testimonials/testimonial_photo_1.png |
+[Info] [23:23:04] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//images/clients/client_6.png
+[Info] [23:23:04] log.go:26 | response | 200 |
+[Info] [23:23:04] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//images/testimonials/testimonila_photo_2.png
+[Info] [23:23:04] log.go:26 | response | 200 |
+[Info] [23:23:04] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//images/testimonials/testimonial_photo_1.png
+[Info] [23:23:04] log.go:26 | response | 200 |
+[Info] [23:23:04] log.go:22 | request |  120.244.140.49 | GET /images/portfolio/1.jpg |
+[Info] [23:23:04] log.go:26 | response | 200 |
+[Info] [23:23:04] log.go:26 | response | 200 |
+[Info] [23:23:04] log.go:22 | request |  120.244.140.49 | GET /images/portfolio/4.jpg |
+[Info] [23:23:04] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//images/portfolio/1.jpg
+[Info] [23:23:04] log.go:22 | request |  120.244.140.49 | GET /images/portfolio/5.jpg |
+[Info] [23:23:04] log.go:22 | request |  120.244.140.49 | GET /images/portfolio/2.jpg |
+[Info] [23:23:04] log.go:22 | request |  120.244.140.49 | GET /images/portfolio/3.jpg |
+[Info] [23:23:04] log.go:22 | request |  120.244.140.49 | GET /images/portfolio/6.jpg |
+[Info] [23:23:04] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//images/portfolio/4.jpg
+[Info] [23:23:04] log.go:26 | response | 200 |
+[Info] [23:23:04] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//images/portfolio/5.jpg
+[Info] [23:23:04] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//images/portfolio/2.jpg
+[Info] [23:23:04] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//images/portfolio/3.jpg
+[Info] [23:23:04] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//images/portfolio/6.jpg
+[Info] [23:23:04] log.go:26 | response | 200 |
+[Info] [23:23:04] log.go:22 | request |  120.244.140.49 | GET /images/portfolio/7.jpg |
+[Info] [23:23:04] log.go:26 | response | 200 |
+[Info] [23:23:04] log.go:26 | response | 200 |
+[Info] [23:23:04] log.go:26 | response | 200 |
+[Info] [23:23:04] log.go:26 | response | 200 |
+[Info] [23:23:04] log.go:22 | request |  120.244.140.49 | GET /images/portfolio/8.jpg |
+[Info] [23:23:04] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//images/portfolio/7.jpg
+[Info] [23:23:04] log.go:22 | request |  120.244.140.49 | GET /images/portfolio/9.jpg |
+[Info] [23:23:04] log.go:22 | request |  120.244.140.49 | GET /images/portfolio/10.jpg |
+[Info] [23:23:04] log.go:22 | request |  120.244.140.49 | GET /images/portfolio/11.jpg |
+[Info] [23:23:04] log.go:22 | request |  120.244.140.49 | GET /images/portfolio/12.jpg |
+[Info] [23:23:04] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//images/portfolio/8.jpg
+[Info] [23:23:04] log.go:26 | response | 200 |
+[Info] [23:23:05] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//images/portfolio/9.jpg
+[Info] [23:23:05] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//images/portfolio/10.jpg
+[Info] [23:23:05] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//images/portfolio/11.jpg
+[Info] [23:23:05] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//images/portfolio/12.jpg
+[Info] [23:23:05] log.go:26 | response | 200 |
+[Info] [23:23:05] log.go:22 | request |  120.244.140.49 | GET /images/blog/blog_post_1.jpg |
+[Info] [23:23:05] log.go:26 | response | 200 |
+[Info] [23:23:05] log.go:26 | response | 200 |
+[Info] [23:23:05] log.go:26 | response | 200 |
+[Info] [23:23:05] log.go:26 | response | 200 |
+[Info] [23:23:05] log.go:22 | request |  120.244.140.49 | GET /images/blog/blog_post_2.jpg |
+[Info] [23:23:05] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//images/blog/blog_post_1.jpg
+[Info] [23:23:05] log.go:22 | request |  120.244.140.49 | GET /images/blog/blog_post_3.jpg |
+[Info] [23:23:05] log.go:22 | request |  120.244.140.49 | GET /images/blog/blog_post_6.jpg |
+[Info] [23:23:05] log.go:22 | request |  120.244.140.49 | GET /images/blog/blog_post_5.jpg |
+[Info] [23:23:05] log.go:22 | request |  120.244.140.49 | GET /images/blog/blog_post_4.jpg |
+[Info] [23:23:05] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//images/blog/blog_post_2.jpg
+[Info] [23:23:05] log.go:26 | response | 200 |
+[Info] [23:23:05] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//images/blog/blog_post_3.jpg
+[Info] [23:23:05] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//images/blog/blog_post_6.jpg
+[Info] [23:23:05] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//images/blog/blog_post_5.jpg
+[Info] [23:23:05] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//images/blog/blog_post_4.jpg
+[Info] [23:23:05] log.go:26 | response | 200 |
+[Info] [23:23:05] log.go:26 | response | 200 |
+[Info] [23:23:05] log.go:26 | response | 200 |
+[Info] [23:23:05] log.go:26 | response | 200 |
+[Info] [23:23:05] log.go:26 | response | 200 |
+[Info] [23:23:05] log.go:22 | request |  120.244.140.49 | GET /images/blog/blog_post_7.jpg |
+[Info] [23:23:05] log.go:22 | request |  120.244.140.49 | GET /images/blog/blog_post_8.jpg |
+[Info] [23:23:05] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//images/blog/blog_post_7.jpg
+[Info] [23:23:05] log.go:26 | response | 200 |
+[Info] [23:23:05] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//images/blog/blog_post_8.jpg
+[Info] [23:23:05] log.go:26 | response | 200 |
+[Info] [23:23:43] log.go:22 | request |  120.244.140.49 | GET /portfolio-1.html |
+[Info] [23:23:43] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//portfolio-1.html
+[Info] [23:23:43] log.go:26 | response | 200 |
+[Info] [23:23:43] log.go:22 | request |  120.244.140.49 | GET /images/portfolio/portfolio_details/1_1.jpg |
+[Info] [23:23:43] log.go:22 | request |  120.244.140.49 | GET /images/portfolio/portfolio_details/1_2.jpg |
+[Info] [23:23:43] log.go:22 | request |  120.244.140.49 | GET /images/portfolio/portfolio_details/1_3.jpg |
+[Info] [23:23:43] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//images/portfolio/portfolio_details/1_1.jpg
+[Info] [23:23:43] log.go:26 | response | 200 |
+[Info] [23:23:43] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//images/portfolio/portfolio_details/1_2.jpg
+[Info] [23:23:43] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//images/portfolio/portfolio_details/1_3.jpg
+[Info] [23:23:43] log.go:26 | response | 200 |
+[Info] [23:23:43] log.go:26 | response | 200 |
+[Info] [23:23:59] log.go:22 | request |  120.244.140.49 | GET /blog-post-1.html |
+[Info] [23:23:59] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//blog-post-1.html
+[Info] [23:23:59] log.go:26 | response | 200 |
+[Info] [23:23:59] log.go:22 | request |  120.244.140.49 | GET /images/blog/blog_post_2_full.jpg |
+[Info] [23:23:59] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//images/blog/blog_post_2_full.jpg
+[Info] [23:23:59] log.go:26 | response | 200 |
+[Info] [23:23:59] log.go:22 | request |  120.244.140.49 | GET /images/blog/comments/comment_photo_1.png |
+[Info] [23:23:59] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//images/blog/comments/comment_photo_1.png
+[Info] [23:23:59] log.go:26 | response | 200 |
+[Info] [23:23:59] log.go:22 | request |  120.244.140.49 | GET /images/blog/comments/comment_photo_2.png |
+[Info] [23:23:59] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//images/blog/comments/comment_photo_2.png
+[Info] [23:23:59] log.go:26 | response | 200 |
+[Info] [23:24:27] log.go:22 | request |   43.138.74.199 | GET /sunshine |
+[Info] [23:24:27] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//sunshine
+[Info] [23:24:27] log.go:26 | response | 404 |
+[Info] [23:25:28] main.go:14 WebServer start!
+[Info] [23:26:49] main.go:14 WebServer start!
+[Info] [23:26:49] log.go:22 | request |  120.244.140.49 | GET /images/portfolio/7.jpg |
+[Info] [23:26:49] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//images/portfolio/7.jpg
+[Info] [23:26:49] log.go:26 | response | 304 |
+[Info] [23:26:49] log.go:22 | request |  120.244.140.49 | GET /images/portfolio/8.jpg |
+[Info] [23:26:49] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//images/portfolio/8.jpg
+[Info] [23:26:49] log.go:26 | response | 304 |
+[Info] [23:26:49] log.go:22 | request |  120.244.140.49 | GET /images/portfolio/9.jpg |
+[Info] [23:26:49] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//images/portfolio/9.jpg
+[Info] [23:26:49] log.go:22 | request |  120.244.140.49 | GET /images/portfolio/11.jpg |
+[Info] [23:26:49] log.go:22 | request |  120.244.140.49 | GET /images/portfolio/10.jpg |
+[Info] [23:26:49] log.go:22 | request |  120.244.140.49 | GET /images/portfolio/12.jpg |
+[Info] [23:26:49] log.go:22 | request |  120.244.140.49 | GET /images/blog/blog_post_1.jpg |
+[Info] [23:26:49] log.go:26 | response | 304 |
+[Info] [23:26:49] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//images/portfolio/11.jpg
+[Info] [23:26:49] log.go:22 | request |  120.244.140.49 | GET /images/blog/blog_post_2.jpg |
+[Info] [23:26:49] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//images/portfolio/10.jpg
+[Info] [23:26:49] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//images/portfolio/12.jpg
+[Info] [23:26:49] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//images/blog/blog_post_1.jpg
+[Info] [23:26:49] log.go:26 | response | 304 |
+[Info] [23:26:49] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//images/blog/blog_post_2.jpg
+[Info] [23:26:49] log.go:22 | request |  120.244.140.49 | GET /images/blog/blog_post_3.jpg |
+[Info] [23:26:49] log.go:26 | response | 304 |
+[Info] [23:26:49] log.go:26 | response | 304 |
+[Info] [23:26:49] log.go:26 | response | 304 |
+[Info] [23:26:49] log.go:26 | response | 304 |
+[Info] [23:26:49] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//images/blog/blog_post_3.jpg
+[Info] [23:26:49] log.go:22 | request |  120.244.140.49 | GET /images/blog/blog_post_4.jpg |
+[Info] [23:26:49] log.go:22 | request |  120.244.140.49 | GET /images/blog/blog_post_5.jpg |
+[Info] [23:26:49] log.go:26 | response | 304 |
+[Info] [23:26:49] log.go:22 | request |  120.244.140.49 | GET /images/blog/blog_post_6.jpg |
+[Info] [23:26:49] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//images/blog/blog_post_4.jpg
+[Info] [23:26:49] log.go:22 | request |  120.244.140.49 | GET /images/blog/blog_post_7.jpg |
+[Info] [23:26:49] log.go:22 | request |  120.244.140.49 | GET /images/blog/blog_post_8.jpg |
+[Info] [23:26:49] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//images/blog/blog_post_5.jpg
+[Info] [23:26:49] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//images/blog/blog_post_6.jpg
+[Info] [23:26:49] log.go:26 | response | 304 |
+[Info] [23:26:49] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//images/blog/blog_post_7.jpg
+[Info] [23:26:49] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//images/blog/blog_post_8.jpg
+[Info] [23:26:49] log.go:26 | response | 304 |
+[Info] [23:26:49] log.go:26 | response | 304 |
+[Info] [23:26:49] log.go:26 | response | 304 |
+[Info] [23:26:49] log.go:26 | response | 304 |
+[Info] [23:26:57] log.go:22 | request |  120.244.140.49 | GET / |
+[Info] [23:26:57] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//
+[Info] [23:26:57] log.go:26 | response | 304 |
+[Info] [23:26:57] log.go:22 | request |  120.244.140.49 | GET /css/bootstrap.css |
+[Info] [23:26:57] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//css/bootstrap.css
+[Info] [23:26:57] log.go:22 | request |  120.244.140.49 | GET /css/owl.carousel.css |
+[Info] [23:26:57] log.go:22 | request |  120.244.140.49 | GET /css/transition-animations.css |
+[Info] [23:26:57] log.go:22 | request |  120.244.140.49 | GET /css/magnific-popup.css |
+[Info] [23:26:57] log.go:22 | request |  120.244.140.49 | GET /css/normalize.css |
+[Info] [23:26:57] log.go:22 | request |  120.244.140.49 | GET /css/animate.css |
+[Info] [23:26:57] log.go:26 | response | 304 |
+[Info] [23:26:57] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//css/owl.carousel.css
+[Info] [23:26:57] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//css/transition-animations.css
+[Info] [23:26:57] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//css/magnific-popup.css
+[Info] [23:26:57] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//css/normalize.css
+[Info] [23:26:57] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//css/animate.css
+[Info] [23:26:57] log.go:26 | response | 304 |
+[Info] [23:26:57] log.go:26 | response | 304 |
+[Info] [23:26:57] log.go:22 | request |  120.244.140.49 | GET /css/main.css |
+[Info] [23:26:57] log.go:26 | response | 304 |
+[Info] [23:26:57] log.go:26 | response | 304 |
+[Info] [23:26:57] log.go:26 | response | 304 |
+[Info] [23:26:57] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//css/main.css
+[Info] [23:26:57] log.go:22 | request |  120.244.140.49 | GET /js/jquery-2.1.3.min.js |
+[Info] [23:26:57] log.go:22 | request |  120.244.140.49 | GET /js/modernizr.custom.js |
+[Info] [23:26:57] log.go:26 | response | 304 |
+[Info] [23:26:57] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//js/jquery-2.1.3.min.js
+[Info] [23:26:57] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//js/modernizr.custom.js
+[Info] [23:26:57] log.go:26 | response | 304 |
+[Info] [23:26:57] log.go:26 | response | 304 |
+[Info] [23:26:57] log.go:22 | request |  120.244.140.49 | GET /css/pe-icon-7-stroke.css |
+[Info] [23:26:57] log.go:22 | request |  120.244.140.49 | GET /css/font-awesome.css |
+[Info] [23:26:57] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//css/font-awesome.css
+[Info] [23:26:57] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//css/pe-icon-7-stroke.css
+[Info] [23:26:57] log.go:26 | response | 304 |
+[Info] [23:26:57] log.go:26 | response | 304 |
+[Info] [23:26:57] log.go:22 | request |  120.244.140.49 | GET /js/bootstrap.min.js |
+[Info] [23:26:57] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//js/bootstrap.min.js
+[Info] [23:26:57] log.go:26 | response | 304 |
+[Info] [23:26:57] log.go:22 | request |  120.244.140.49 | GET /js/page-transition.js |
+[Info] [23:26:57] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//js/page-transition.js
+[Info] [23:26:57] log.go:26 | response | 304 |
+[Info] [23:26:57] log.go:22 | request |  120.244.140.49 | GET /js/imagesloaded.pkgd.min.js |
+[Info] [23:26:57] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//js/imagesloaded.pkgd.min.js
+[Info] [23:26:57] log.go:22 | request |  120.244.140.49 | GET /js/validator.js |
+[Info] [23:26:57] log.go:22 | request |  120.244.140.49 | GET /js/jquery.shuffle.min.js |
+[Info] [23:26:57] log.go:22 | request |  120.244.140.49 | GET /js/masonry.pkgd.min.js |
+[Info] [23:26:57] log.go:22 | request |  120.244.140.49 | GET /js/owl.carousel.min.js |
+[Info] [23:26:57] log.go:26 | response | 304 |
+[Info] [23:26:57] log.go:22 | request |  120.244.140.49 | GET /js/jquery.magnific-popup.min.js |
+[Info] [23:26:57] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//js/validator.js
+[Info] [23:26:57] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//js/jquery.shuffle.min.js
+[Info] [23:26:57] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//js/masonry.pkgd.min.js
+[Info] [23:26:57] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//js/owl.carousel.min.js
+[Info] [23:26:57] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//js/jquery.magnific-popup.min.js
+[Info] [23:26:57] log.go:26 | response | 304 |
+[Info] [23:26:57] log.go:26 | response | 304 |
+[Info] [23:26:57] log.go:22 | request |  120.244.140.49 | GET /images/my_photo.jpg |
+[Info] [23:26:57] log.go:26 | response | 304 |
+[Info] [23:26:57] log.go:26 | response | 304 |
+[Info] [23:26:57] log.go:26 | response | 304 |
+[Info] [23:26:57] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//images/my_photo.jpg
+[Info] [23:26:57] log.go:22 | request |  120.244.140.49 | GET /fonts/fontawesome-webfont.woff2 |
+[Info] [23:26:57] log.go:22 | request |  120.244.140.49 | GET /images/service/web_design.png |
+[Info] [23:26:57] log.go:26 | response | 304 |
+[Info] [23:26:57] log.go:22 | request |  120.244.140.49 | GET /images/service/management.png |
+[Info] [23:26:57] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//fonts/fontawesome-webfont.woff2
+[Info] [23:26:57] log.go:22 | request |  120.244.140.49 | GET /fonts/Pe-icon-7-stroke.woff |
+[Info] [23:26:57] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//images/service/web_design.png
+[Info] [23:26:57] log.go:22 | request |  120.244.140.49 | GET /images/service/copywrite.png |
+[Info] [23:26:57] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//images/service/management.png
+[Info] [23:26:57] log.go:26 | response | 304 |
+[Info] [23:26:57] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//fonts/Pe-icon-7-stroke.woff
+[Info] [23:26:57] log.go:22 | request |  120.244.140.49 | GET /images/service/ecommerce.png |
+[Info] [23:26:57] log.go:26 | response | 304 |
+[Info] [23:26:57] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//images/service/copywrite.png
+[Info] [23:26:57] log.go:26 | response | 304 |
+[Info] [23:26:57] log.go:26 | response | 304 |
+[Info] [23:26:57] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//images/service/ecommerce.png
+[Info] [23:26:57] log.go:26 | response | 304 |
+[Info] [23:26:57] log.go:22 | request |  120.244.140.49 | GET /images/clients/client_3.png |
+[Info] [23:26:57] log.go:22 | request |  120.244.140.49 | GET /images/clients/client_2.png |
+[Info] [23:26:57] log.go:26 | response | 304 |
+[Info] [23:26:57] log.go:22 | request |  120.244.140.49 | GET /images/clients/client_1.png |
+[Info] [23:26:57] log.go:22 | request |  120.244.140.49 | GET /images/clients/client_5.png |
+[Info] [23:26:57] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//images/clients/client_3.png
+[Info] [23:26:57] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//images/clients/client_2.png
+[Info] [23:26:58] log.go:22 | request |  120.244.140.49 | GET /images/clients/client_4.png |
+[Info] [23:26:58] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//images/clients/client_1.png
+[Info] [23:26:58] log.go:22 | request |  120.244.140.49 | GET /images/clients/client_6.png |
+[Info] [23:26:58] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//images/clients/client_5.png
+[Info] [23:26:58] log.go:26 | response | 304 |
+[Info] [23:26:58] log.go:26 | response | 304 |
+[Info] [23:26:58] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//images/clients/client_4.png
+[Info] [23:26:58] log.go:26 | response | 304 |
+[Info] [23:26:58] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//images/clients/client_6.png
+[Info] [23:26:58] log.go:26 | response | 304 |
+[Info] [23:26:58] log.go:26 | response | 304 |
+[Info] [23:26:58] log.go:22 | request |  120.244.140.49 | GET /js/jquery.hoverdir.js |
+[Info] [23:26:58] log.go:26 | response | 304 |
+[Info] [23:26:58] log.go:22 | request |  120.244.140.49 | GET /js/main.js |
+[Info] [23:26:58] log.go:22 | request |  120.244.140.49 | GET /images/photo_small.jpg |
+[Info] [23:26:58] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//js/jquery.hoverdir.js
+[Info] [23:26:58] log.go:22 | request |  120.244.140.49 | GET /images/testimonials/testimonial_photo_1.png |
+[Info] [23:26:58] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//js/main.js
+[Info] [23:26:58] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//images/photo_small.jpg
+[Info] [23:26:58] log.go:22 | request |  120.244.140.49 | GET /images/testimonials/testimonila_photo_2.png |
+[Info] [23:26:58] log.go:26 | response | 304 |
+[Info] [23:26:58] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//images/testimonials/testimonial_photo_1.png
+[Info] [23:26:58] log.go:22 | request |  120.244.140.49 | GET /images/portfolio/1.jpg |
+[Info] [23:26:58] log.go:26 | response | 304 |
+[Info] [23:26:58] log.go:26 | response | 304 |
+[Info] [23:26:58] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//images/testimonials/testimonila_photo_2.png
+[Info] [23:26:58] log.go:26 | response | 304 |
+[Info] [23:26:58] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//images/portfolio/1.jpg
+[Info] [23:26:58] log.go:26 | response | 304 |
+[Info] [23:26:58] log.go:22 | request |  120.244.140.49 | GET /images/portfolio/2.jpg |
+[Info] [23:26:58] log.go:26 | response | 304 |
+[Info] [23:26:58] log.go:22 | request |  120.244.140.49 | GET /images/portfolio/3.jpg |
+[Info] [23:26:58] log.go:22 | request |  120.244.140.49 | GET /images/portfolio/4.jpg |
+[Info] [23:26:58] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//images/portfolio/2.jpg
+[Info] [23:26:58] log.go:22 | request |  120.244.140.49 | GET /images/portfolio/5.jpg |
+[Info] [23:26:58] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//images/portfolio/3.jpg
+[Info] [23:26:58] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//images/portfolio/4.jpg
+[Info] [23:26:58] log.go:22 | request |  120.244.140.49 | GET /images/portfolio/6.jpg |
+[Info] [23:26:58] log.go:26 | response | 304 |
+[Info] [23:26:58] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//images/portfolio/5.jpg
+[Info] [23:26:58] log.go:26 | response | 304 |
+[Info] [23:26:58] log.go:26 | response | 304 |
+[Info] [23:26:58] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//images/portfolio/6.jpg
+[Info] [23:26:58] log.go:26 | response | 304 |
+[Info] [23:26:58] log.go:26 | response | 304 |
+[Info] [23:28:19] log.go:22 | request |  120.244.140.49 | GET /portfolio-1.html |
+[Info] [23:28:19] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//portfolio-1.html
+[Info] [23:28:19] log.go:26 | response | 304 |
+[Info] [23:28:19] log.go:22 | request |  120.244.140.49 | GET /images/portfolio/portfolio_details/1_1.jpg |
+[Info] [23:28:19] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//images/portfolio/portfolio_details/1_1.jpg
+[Info] [23:28:19] log.go:22 | request |  120.244.140.49 | GET /images/portfolio/portfolio_details/1_3.jpg |
+[Info] [23:28:19] log.go:22 | request |  120.244.140.49 | GET /images/portfolio/portfolio_details/1_2.jpg |
+[Info] [23:28:19] log.go:26 | response | 304 |
+[Info] [23:28:19] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//images/portfolio/portfolio_details/1_3.jpg
+[Info] [23:28:19] sunshine.go:14 [SunshineHandle] file: ./static/sunshine//images/portfolio/portfolio_details/1_2.jpg
+[Info] [23:28:19] log.go:26 | response | 304 |
+[Info] [23:28:19] log.go:26 | response | 304 |
